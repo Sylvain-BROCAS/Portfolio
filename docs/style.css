@@ -1,19 +1,19 @@
 html {
     font-size: 24 px;
     font-family: 'Open Sans', sans-serif;
-    background-color: azure;
+    background-color: #BACEC1;
     justify-items: center;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
 }
 
 body {
-    background-color: rgb(203, 209, 209);
+    background-color: #f1f0e7;
     color: black;
-    width: 90%;
-    height: 100%;
+    width: 80%;
     margin: 0 auto 0 auto;
-    padding: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 10%;
 }
 
 img {
@@ -21,10 +21,14 @@ img {
     margin: 0 auto;
 }
 
+
+/* ================================ Présentation frame ================================= */
+
 #presentation {
-    background-color: rgb(221, 226, 226);
     min-height: 30vh;
     margin: 2%;
+    padding: 1%;
+    font-size: large;
 }
 
 #presentation img {
@@ -35,16 +39,19 @@ img {
     min-height: auto;
     max-width: 5cm;
     max-height: auto;
+    margin: 15px;
+    border-radius: 10px;
 }
 
 #technos {
     display: flex;
     margin: 2%;
-    background-color: rgb(221, 226, 226);
 }
 
+
+/* ================================ Projects frame ================================= */
+
 #projets {
-    background-color: rgb(221, 226, 226);
     justify-content: center;
     margin: 2%;
 }
@@ -53,18 +60,37 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(188, 190, 190);
 }
 
-.projets div div {
+
+/* .projets div div {
+    
+} */
+
+
+/* .carte-projet :hover {
+    transform: scale(1.1);
+    background-color: #E59550;
+} */
+
+.carte-projet {
     width: 30%;
     margin: 1%;
-    background-color: rgb(187, 238, 238);
+    background-color: #E59560;
     padding: 5px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-#titre_projet h2 {
+.carte-projet:hover {
+    transform: scale(1.1);
+    background-color: #E59550;
+}
+
+.titre_projet h2,
+h3 {
     text-justify: center;
+    margin: auto;
 }
 
 .cleared {
