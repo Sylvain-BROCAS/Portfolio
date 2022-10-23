@@ -1,0 +1,72 @@
+html {
+    font-size: 24 px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: azure;
+    justify-items: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+body {
+    background-color: rgb(203, 209, 209);
+    color: black;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+}
+
+#presentation {
+    background-color: rgb(221, 226, 226);
+    min-height: 30vh;
+    margin: 2%;
+}
+
+#presentation img {
+    float: left;
+    width: 10%;
+    height: auto;
+    min-width: 3cm;
+    min-height: auto;
+    max-width: 5cm;
+    max-height: auto;
+}
+
+#technos {
+    display: flex;
+    margin: 2%;
+    background-color: rgb(221, 226, 226);
+}
+
+#projets {
+    background-color: rgb(221, 226, 226);
+    justify-content: center;
+    margin: 2%;
+}
+
+.projets div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(188, 190, 190);
+}
+
+.projets div div {
+    width: 30%;
+    margin: 1%;
+    background-color: rgb(187, 238, 238);
+    padding: 5px;
+}
+
+#titre_projet h2 {
+    text-justify: center;
+}
+
+.cleared {
+    clear: left;
+}
